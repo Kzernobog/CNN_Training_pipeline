@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Filters>
+    <Filter name="W01">
+        <bias>"B01"</bias>
+        <dimension>11</dimension>
+        <stride>4</stride>
+        <input>3</input>
+        <output>96</output>
+        <padding>VALID</padding>
+        <pretrained>YES</pretrained>
+    </Filter>
+    <Filter name="W02">
+        <bias>"B02"</bias>
+        <dimension>5</dimension>
+        <stride>1</stride>
+        <input>96</input>
+        <output>256</output>
+        <padding>SAME</padding>
+        <pretrained>YES</pretrained>
+    </Filter>
+    <Filter name="W03">
+        <bias>"B03"</bias>
+        <dimension>3</dimension>
+        <stride>1</stride>
+        <input>256</input>
+        <output>384</output>
+        <padding>SAME</padding>
+        <pretrained>YES</pretrained>
+    </Filter>
+    <Filter name="W04">
+        <bias>"B04"</bias>
+        <dimension>3</dimension>
+        <stride>1</stride>
+        <input>384</input>
+        <output>384</output>
+        <padding>SAME</padding>
+        <pretrained>YES</pretrained>
+    </Filter>
+    <Filter name="W05">
+        <bias>"B05"</bias>
+        <dimension>3</dimension>
+        <stride>1</stride>
+        <input>384</input>
+        <output>256</output>
+        <padding>SAME</padding>
+        <pretrained>YES</pretrained>
+    </Filter>
+</Filters>
